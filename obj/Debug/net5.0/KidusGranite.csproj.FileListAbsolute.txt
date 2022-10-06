@@ -38,3 +38,17 @@ D:\TutsNode\KidusGranite\obj\Debug\net5.0\ref\KidusGranite.dll
 D:\TutsNode\KidusGranite\obj\Debug\net5.0\KidusGranite.pdb
 D:\TutsNode\KidusGranite\obj\Debug\net5.0\KidusGranite.genruntimeconfig.cache
 D:\TutsNode\KidusGranite\obj\Debug\net5.0\KidusGranite.csproj.CopyComplete
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Humanizer.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\dotnet-ef.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Newtonsoft.Json.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Npgsql.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+d:\TutsNode\KidusGranite\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\TutsNode\KidusGranite\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs

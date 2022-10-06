@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Category Page";
+}
+
+    <h1 class="display-4">Category</h1>
+    <ul>
+        <li><strong>Name | Display Order</strong></li>
+        @foreach (var category in Model)
+        {
+            <li>@category.Name | @category.DisplayOrder</li>
+        }
+    </ul>
