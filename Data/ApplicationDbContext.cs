@@ -11,5 +11,6 @@ namespace KidusGranite.Data
 
       public DbSet<Category> Categories { get; set; }
       public DbSet<ApplicationType> ApplicationTypes { get; set; }
+      public DbSet<Product> Products { get; set; }
     }
 }
