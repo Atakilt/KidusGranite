@@ -90,7 +90,7 @@ namespace KidusGranite.Controllers
                 if(productVM.Product.Id==0)
                 {
                     //creating
-                    string upload = webRootPath + WebContants.ImagePath;
+                    string upload = webRootPath + WebConstants.ImagePath;
                     string fileName = Guid.NewGuid().ToString();
                     string extension = Path.GetExtension(files[0].FileName);
 
@@ -108,7 +108,7 @@ namespace KidusGranite.Controllers
                     var objFromDb = _context.Products.AsNoTracking().FirstOrDefault(u => u.Id == productVM.Product.Id);
                     if (files.Count > 0)
                     {
-                        string upload = webRootPath + WebContants.ImagePath;
+                        string upload = webRootPath + WebConstants.ImagePath;
                         string fileName = Guid.NewGuid().ToString();
                         string extension = Path.GetExtension(files[0].FileName);
 
@@ -181,7 +181,7 @@ namespace KidusGranite.Controllers
                 return NotFound();
             }
 
-            string upload = _webHostEnvironment.WebRootPath + WebContants.ImagePath;            
+            string upload = _webHostEnvironment.WebRootPath + WebConstants.ImagePath;            
 
             var oldFile = Path.Combine(upload, product.Image);
 

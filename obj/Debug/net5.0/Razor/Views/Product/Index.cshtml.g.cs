@@ -33,8 +33,22 @@ using KidusGranite.Models.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\TutsNode\KidusGranite\Views\_ViewImports.cshtml"
+using KidusGranite.Utility;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "D:\TutsNode\KidusGranite\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Http;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"02d39fc95f5a253e5089754e4c55b3fbf057062b", @"/Views/Product/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9abb3d7edd5e4eb91447c692038af4ce4d8e6dd2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"466e347ffbcbbf19c1f5a3c1184ed1de8dcfff40", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Product>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Upsert", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -77,7 +91,7 @@ using KidusGranite.Models.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"container p-3\">\r\n    <div class=\"row pt-4\">\r\n        <div class=\"col-6\">\r\n            <h2 class=\"text-primary\">Product List</h2>\r\n        </div>\r\n        <div class=\"col-6 text-right\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d39fc95f5a253e5089754e4c55b3fbf057062b5602", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d39fc95f5a253e5089754e4c55b3fbf057062b5927", async() => {
                 WriteLiteral("\r\n                <i class=\"fas fa-plus\"></i> &nbsp; Add New Product\r\n            ");
             }
             );
@@ -155,7 +169,7 @@ using KidusGranite.Models.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("</td>                   \r\n                    <td class=\"text-center\">\r\n                        <div class=\"w-75 btn-group\" role=\"group\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d39fc95f5a253e5089754e4c55b3fbf057062b9178", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d39fc95f5a253e5089754e4c55b3fbf057062b9503", async() => {
                 WriteLiteral("\r\n                                <i class=\"fas fa-edit\"></i>\r\n                            ");
             }
             );
@@ -187,7 +201,7 @@ using KidusGranite.Models.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d39fc95f5a253e5089754e4c55b3fbf057062b11518", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d39fc95f5a253e5089754e4c55b3fbf057062b11843", async() => {
                 WriteLiteral("\r\n                                <i class=\"fas fa-trash-alt\"></i>\r\n                            ");
             }
             );
